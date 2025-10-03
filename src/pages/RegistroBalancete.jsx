@@ -37,7 +37,7 @@ export default function RegistroBalancete() {
 
   const anos = []
   const anoAtual = new Date().getFullYear()
-  for (let i = anoAtual; i >= anoAtual - 10; i--) {
+  for (let i = anoAtual; i <= anoAtual + 10; i++) {
     anos.push(i.toString())
   }
 
